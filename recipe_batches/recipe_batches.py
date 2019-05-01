@@ -26,7 +26,7 @@ def recipe_batches(recipe, ingredients):
 
     else:
       return 0
-      
+
   return current_difference
    
 
@@ -34,6 +34,6 @@ def recipe_batches(recipe, ingredients):
 if __name__ == '__main__':
   # Change the entries of these dictionaries to test 
   # your implementation with different inputs
-  recipe = { 'milk': 100, 'flour': 4, 'sugar': 10, 'butter': 5 }
-  ingredients = { 'milk': 1288, 'flour': 9, 'sugar': 95 }
+  recipe = { 'milk': 2 }
+  ingredients = { 'milk': 200}
   print("{batches} batches can be made from the available ingredients: {ingredients}.".format(batches=recipe_batches(recipe, ingredients), ingredients=ingredients))
